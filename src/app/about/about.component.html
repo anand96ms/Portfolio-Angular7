@@ -1,0 +1,84 @@
+<body>
+
+  <app-header></app-header>
+
+  <main id="about">
+
+    <h1 class="lg-heading">
+      About <span style="color:rgb(240, 80, 106)">Me</span>
+    </h1>
+    <br>
+    <h2 class="sm-heading"></h2>
+    <br>
+    <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+      <div fxFlex="30%">
+        <img class="img" src="../../assets/images/yourPhoto.jpg" alt="your name">
+      </div>
+      <br>
+      <div fxFlex="15%">
+        <button class="button"><a href="../../assets/images/yourResume.pdf" target="_blank">Resume</a></button>
+        <div class="icon">
+          <a href="https://yourTwitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div class="icon">
+          <a href="https://YourLinkedId" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+      <br>
+      <div fxFlex="55%">
+        <mat-card class="about1-card">
+          <mat-card-content>
+            <p>Write Details about yourself.</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container"
+         fxLayout="row"
+         fxLayout.xs="column"
+         fxLayoutGap="0.5%"
+         fxLayoutAlign="center">
+      <div fxFlex="33%">
+        <mat-card class="about-card">
+          <mat-card-header class="about-header">
+            <mat-card-title class="about-title">Academics</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Master's in Computer Science<br> - Institute name</p>
+            <p>Associate's in Computer Science<br> - Institute name</p>
+            <p>Bachelor's in Physics<br> - Institute name</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div fxFlex="33%">
+        <mat-card class="about-card">
+          <mat-card-header class="about-header">
+            <mat-card-title class="about-title">Coding</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>JP Morgan, Code For Good Hackathon</p>
+            <p>IBM Master The MainFrame Wall of Fame</p>
+            <p>freeCodeCamp Frontend Development Projects><strong><em>CodePen</em></strong></p>
+
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div fxFlex="34%">
+        <mat-card class="about-card">
+          <mat-card-header class="about-header">
+            <mat-card-title class="about-title">Work Experience</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Mention All your work details</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</body>

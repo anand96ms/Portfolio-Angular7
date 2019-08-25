@@ -1,0 +1,63 @@
+<body>
+
+<app-header></app-header>
+
+<br>
+
+<main>
+
+  <h1 class="lg-heading">
+    My <span style="color:rgb(240, 80, 106)">Projects</span>
+  </h1>
+  <br>
+  <h2 class="sm-heading">
+    Check out some of my projects...
+  </h2>
+
+  <br>
+
+  <div class="container"
+       style="height: 100%;"
+       fxLayout="row"
+       fxLayout.xs="column"
+       fxLayoutGap="10px"
+       fxLayoutAlign="space-evenly none">
+    <div fxFlex="33%">
+      <mat-card class="project-card">
+        <mat-card-header class="project-header">
+          <mat-card-title class="project-title">Angular 7 App</mat-card-title>
+        </mat-card-header>
+        <div class="resp-container">
+          <iframe class="resp-iframe"src="https://www.youtube.com/embed/3uRIe5w3rIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <mat-card-content>
+          <p>
+                Angular 7 app build for demo.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div fxFlex="33%">
+      <mat-card class="project-card">
+        <mat-card-header class="project-header">
+          <mat-card-title class="project-title">My Portfolio</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="../../assets/images/Term-Project-pdf-1024x671.jpg" alt="Database Design">
+        <mat-card-content>
+          <p>
+                My Portfolio developed using Angular 7.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+<br>
+<br>
+
+</main>
+
+<br>
+
+<app-footer></app-footer>
+
+</body>
