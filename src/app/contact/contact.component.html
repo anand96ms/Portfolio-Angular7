@@ -6,6 +6,32 @@
         Connect With <span style="color:rgb(240, 80, 106)">Me</span>
       </h1>
       <br>
+
+<!-- form goes here -->
+<div style="margin-left: 42%;">
+<form (ngSubmit)="processForm()">
+
+  <!-- name -->
+  <div class="field" style="padding-bottom: 2%">
+    <input type="text" name="name" class="input" placeholder="Your Name" [(ngModel)]="name">
+  </div>
+
+  <!-- email -->
+  <div class="field" style="padding-bottom: 2%">
+    <input type="email" name="email" class="input" placeholder="Your Email" [(ngModel)]="email">
+  </div>
+
+  <!-- message -->
+  <div class="field" style="padding-bottom: 2%">
+    <textarea class="textarea" name="message" placeholder="What's on your mind?" [(ngModel)]="message"></textarea>
+  </div>
+
+  <button type="submit" class="button is-danger is-large">Submit</button>
+
+</form>
+</div>
+
+
       <h1 class="lg-heading">
         <div class="icons">
           <a href="mailto:yourMailID">
