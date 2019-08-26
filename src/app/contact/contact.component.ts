@@ -11,10 +11,15 @@ export class ContactComponent {
     name: '',
     subject: '',
     emailAddress: '',
-    message: ''
+    message1: ''
   };
+  name: string;
+  email: string;
+  message: string;
 
-  onSubmit() {
-    console.log(this.model);
+
+processForm() {
+    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    alert(allInfo); 
   }
 }
